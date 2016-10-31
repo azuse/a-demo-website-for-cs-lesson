@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>想去哪玩？</title>
+</head>
+<body bgcolor="gray">
+
+<style type="text/css">
+
+	.header {
+
+	    position: relative;
+	    width: 100%;
+	    height: 50px;
+	    background-color: rgb(163,255,224);
+	}
+
+	.header img{
+		float: left;
+	}
+
+	.header a{										/*顶栏里的链接*/
+	position: relative;
+	left: 10px;
+	float: left;
+    text-align: center;
+    line-height: 50px;
+    width: 80px;
+    position: relative;	
+    color: red;
+}
+
+	#推荐文字{
+		position: absolute;
+		top: 20%;
+		left: 110px;
+		width: 400px;
+		height: 50px;
+	}
+
+	.days{												/*图片宽度*/
+		 width: 300px;
+	     height: 300px;
+	}
+
+	.daysdiv{
+		top: 38.1%;
+	}
+
+
+	#oneday {
+		position: absolute;
+		left:100px;
+	}
+
+	#threedays{
+		position: absolute;
+		left:450px;
+	}
+
+	#fivedays{
+		position: absolute;
+		left: 800px;
+	}
+</style>
+
+<header class = "header" background>
+	<img src="pic/logo.gif" height="50">
+	<a href="index.html">首页</a>
+
+</header>
+
+<div id="推荐文字">
+	<h2>今天要去哪玩？>></h2>
+	
+</div>
+
+<div class=daysdiv id="oneday">
+	<a href="oneday/oneday.html">
+		<img class="days" src="pic/oneday.gif" >
+	</a>
+</div>
+
+<div class=daysdiv id="threedays">
+	<a href="threedays/threedays.html">
+		<img class="days" src="pic/threedays.gif" >
+	</a>
+</div>
+
+<div class=daysdiv id="fivedays">
+	<a href="fivedays/fivedays.html">
+		<img class="days" src="pic/fivedays.gif" >
+	</a>
+</div>
+
+</body>
+</html>
