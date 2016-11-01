@@ -11,7 +11,9 @@
     <!-- Loading Flat UI -->
     <link href="../dist/css/flat-ui.css" rel="stylesheet">
     <link href="../docs/assets/css/demo.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="../css/component.css" />
     
     <style >
     	img{
@@ -26,7 +28,7 @@
 
 <div class="row clearfix">
 		<div class="col-md-12 column">
-			<nav class="navbar navbar-default" role="navigation">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
 					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://azusebox.moe/demo" >去哪玩？</a>
 				</div>
@@ -54,13 +56,22 @@
 		</div>
 	</div>
 
-	<div class="row clearfix">
+	<div class="row clearfix" >
 
-		<div class="col-md-4 column">
+		<div class="col-md-4 column" style="top:100px;">
 
-			<a  href="1/index.html" ><img  alt="400x300" src="pic/1-1.jpg" class="img-rounded" width="250" height="187"  /></a>
+			<figure class="effect-dexter">
+            <img src="pic/1-1.jpg" alt="img12" class="img-rounded" />
+            <figcaption>
+                <h2>Strange <span>Dexter</span></h2>
+                <p>Dexter had his own strange way. You could watch him training ants.</p>
+                <a href="http://yusi123.com/" target="_blank">View more</a>
+            </figcaption>			
+        	</figure>
 		</div>
-		<div class="col-md-8 column">
+
+
+		<div class="col-md-8 column" style="top:100px;">
 			<h3>
 				外滩
 			</h3>
@@ -74,10 +85,10 @@
 	</div>
 
 	<div class="row clearfix">
-			<div class="col-md-4 column">
+			<div class="col-md-4 column" style="top:100px;">
 				<a  href="2/index.html" ><img alt="400x300" src="pic/2-1.jpg" class="img-rounded" width="250" height="187"/></a>
 			</div>
-			<div class="col-md-8 column">
+			<div class="col-md-8 column" style="top:100px;">
 				<h3>
 					田子坊
 				</h3>
@@ -91,10 +102,10 @@
 	</div>
 
 	<div class="row clearfix">
-			<div class="col-md-4 column">
+			<div class="col-md-4 column" style="top:100px;">
 				<a  href="3/index.html" ><img alt="400x300" src="pic/3-1.jpg" class="img-rounded" width="250" height="187"/></a>
 			</div>
-			<div class="col-md-8 column">
+			<div class="col-md-8 column" style="top:100px;">
 				<h3>
 					泰晤士小镇
 				</h3>
@@ -108,12 +119,12 @@
 	</div>
 
 	<div class="row clearfix">
-			<div class="col-md-4 column">
+			<div class="col-md-4 column" style="top:100px;">
 				<a  href="4/index.html" ><img alt="400x300" src="pic/4-1.jpg" class="img-rounded" width="250" height="187"/></a>
 			</div>
-			<div class="col-md-8 column">
+			<div class="col-md-8 column" style="top:100px;"  >
 				<h3>
-					枫泾
+					枫泾古镇
 				</h3>
 				<p>
 					枫泾最有名的就是枫泾古镇了，吃的东西很便宜。人多乱的很，但是乡村美景。味道非常清淡，有很多好吃的。很安静的一个小镇，但是商业化气息不浓，远离城市的喧嚣。
@@ -125,10 +136,10 @@
 	</div>
 
 <div class="row clearfix">
-			<div class="col-md-4 column">
+			<div class="col-md-4 column" style="top:100px;">
 				<a  href="5/index.html" ><img alt="400x300" src="pic/5-1.jpg" class="img-rounded" width="250" height="187"/></a>
 			</div>
-			<div class="col-md-8 column">
+			<div class="col-md-8 column" style="top:100px;">
 				<h3>
 					城隍庙
 				</h3>
@@ -143,9 +154,18 @@
 
 
 </div>
-<script type="../text/javascript" src="js/bootstrap.min.js"></script>
+
+<div class="row clearfix">
+	<div class="col-md-12" style="top: 100px">
+		<footer><p>東瀬まつり All Rights Reserved</p></footer>
+	</div>
+</div>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
  <script src="../dist/js/flat-ui.min.js"></script>
   <script src="../dist/js/vendor/jquery.min.js"></script>
+  <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 </div>
+
+
 </body>
 </html>
