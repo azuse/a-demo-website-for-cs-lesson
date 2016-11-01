@@ -12,8 +12,15 @@
     <link href="docs/assets/css/demo.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="img/favicon.ico">
+    <style type="">
+    	h4{
+    		font-size: 110%}
+    	p{
+    		font-size: 85%
+    	}
+    </style>
 </head>
-<body>
+<body  onload="fnonload();">
 
 
 
@@ -28,6 +35,15 @@
 					<ul class="nav navbar-nav">
 						<li class="active">
 							 <a href="index.html">首页</a>
+						<li>
+							 <a href="../oneday/index.html">一日游</a>
+						</li>
+						<li >
+							 <a href="../threedays/index.html">三日游</a>
+						</li>
+						<li>
+							 <a href="../fivedays/index.html">五日游</a>
+						</li>
 						</li>
 
 						
@@ -40,16 +56,19 @@
 		<div class="col-md-12 column">
 			<div class="alert alert-dismissable alert-success">
 				 
-				<h3>
+				<h4 >
 					今天要去哪？>>
-				</h3> 
+				</h4> 
+				<p id="title">想去哪玩这里都有推荐哟☆。</p>
+
 			</div>
 		</div>
 	</div>
 	<div class="row clearfix">
-		<div class="col-md-4 column">
+		<div class="col-md-4 column" onmouseover="mOver(this)" onmouseout="mOut(this)">
 			<a href="oneday/index.html">
-			<img alt="140x140" src="pic/1.gif" class="img-rounded" width="300" height="300"/></a>
+			<img id=oneday1 alt="140x140" src="pic/1-1.gif" class="img-rounded" width="300" height="300"/></a>
+			
 		</div>
 		<div class="col-md-4 column">
 			<a href="threedays/index.html">
@@ -61,6 +80,44 @@
 		</div>
 	</div>
 </div>
+
+<script>
+
+
+
+
+function mOver(obj)
+{
+oneday1.src="pic/1-2.gif"
+}
+
+function mOut(obj)
+{
+element.src="pic/1-1.gif"
+}
+</script>
+<script language="JavaScript">
+<!-- Hide
+var a = Math.random() + ""
+var rand1 = a.charAt(5)
+quotes = new Array
+
+quotes[1] = '今天要去哪玩？'
+quotes[2] = '四斋蒸鹅心，出去走走吧~'
+quotes[3] = '在下方选择出行天数DA☆ZE~'
+quotes[4] = '你说没时间？不要再肝<span style="background-color:#555;color:#555;border:1px solid #555;">阴阳师</span>了，你就有时间出来走走了。'
+quotes[5] = '带着你心爱的人一起出去走走~（于是站长带上了电脑（误'
+quotes[6] = '你上一次离开同济是什么时候？'
+quotes[7] = '觉得无聊的话，你也许会想去下面这几个地方转转。'
+quotes[8] = '正在考虑把大学路的妹抖咖啡加到推荐里。'
+quotes[9] = '这个网页将在20s后爆炸（误'
+quotes[0] = '这段话还没加载出来'
+var quote = quotes[rand1]
+</script>
+<script language="JavaScript">
+document.getElementById("title").innerHTML=(quote)
+
+</script>
 
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
  <script src="dist/js/flat-ui.min.js"></script>
