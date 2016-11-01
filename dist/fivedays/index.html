@@ -2,25 +2,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Loading Bootstrap -->
+	<title>一日游 -去哪玩？</title>
+	
+
+		<!-- Loading Bootstrap -->
     <link href="../dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Loading Flat UI -->
     <link href="../dist/css/flat-ui.css" rel="stylesheet">
     <link href="../docs/assets/css/demo.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="../css/component2.css" />
+    
+    <style >
+        	body {
+    		height:110%+;
+    	}
+    	.container {
+		width: 970px !important;
+	}
+    
+    	img{
+    		position: relative;
+    		top:30px;
+    	}
+    </style>
 </head>
 <body>
 
 <div class="container">
-	<div class="row clearfix">
-		<div class="col-md-12 column">
+
+<div class="row clearfix">
+		<div class="col-xs-12 column">
 			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="http://azusebox.moe/demo" >去哪玩？</a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
@@ -45,26 +62,80 @@
 			</nav>
 		</div>
 	</div>
-	<div class="row clearfix">
-		<div class="col-md-4 column">
-			<img alt="140x140" src="v3/default3.jpg" />
+
+	<div class="row clearfix" >
+
+		<div class="col-xs-4 column" >
+
+			<div class="container">
+			<div class="grid" >
+			<figure class="effect-milo img-rounded" style="position: absolute;left: 20px;top: 135px;">
+		         <img id=oneday1 alt="img" src="1.jpg" />
+	            <figcaption >
+	                
+	                <p style="font-size: 140%">南京</p>
+	                <a href="1/index.html"  >»</a>
+	            </figcaption>			
+	        </figure>
+	        </div>
+	        </div>
 		</div>
-		<div class="col-md-8 column">
-			<h2>
-				Heading
-			</h2>
+
+
+		<div class="col-xs-8 column" style="top:100px;">
+			<h3>
+				南京
+			</h3>
 			<p>
-				Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+				是一个美丽的城市，历史底蕴深厚，自然景观和人文景观都很不赖，有很多很好看的地方能够领略到浓郁的文化气息。总统府印象深刻，夜游秦淮河也很不错。但是人太多，空气质量也不好
 			</p>
 			<p>
-				 <a class="btn" href="#">View details »</a>
+				 <a class="btn" href="1/index.html" class="img-rounded" style="background-color: rgb(226,230,231);">详细 »</a>
 			</p>
 		</div>
 	</div>
+
+	<div class="row clearfix">
+			<div class="col-xs-4 column" style="top:100px;">
+				<div class="container" >
+			<div class="grid" >
+			<figure class="effect-milo img-rounded" style="position: absolute;left: 20px;top: 40px;">
+		         <img id=oneday1 alt="img" src="2.jpg" />
+	            <figcaption >
+	                
+	                <p style="font-size: 140%;width: 40%">苏州</p>
+	                <a href="2/index.html"  >»</a>
+	            </figcaption>			
+	        </figure>
+	        </div>
+	        </div>
+			</div>
+			<div class="col-xs-8 column" style="top:100px;">
+				<h3>
+					苏州
+				</h3>
+				<p>
+					城市很秀气，风景和人文感觉都很好。知名旅游景点非常多，苏州园林则是最有名的景点。山塘街夜景很美，很有特色，观前街很热闹小吃也多。温婉的江南水乡是一座适合生活的安逸城市。
+				</p>
+				<p>
+					 <a class="btn" href="2/index.html" class="img-rounded" style="background-color: rgb(226,230,231);">详细 »</a>
+				</p>
+			</div>
+	</div>
+
+
+	<div style="position: relative; top: 165px;">
+	<footer  style="text-align: center; ">copyright © 2016 東瀬まつり太 All Rights Reserved   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 文本感谢：👻  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp技术支援：某位人民物理教师</footer></div>
+
 </div>
-<script type="../text/javascript" src="js/bootstrap.min.js"></script>
+
+<script src="../js/jquery-1.9.1.js"> </script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
  <script src="../dist/js/flat-ui.min.js"></script>
   <script src="../dist/js/vendor/jquery.min.js"></script>
+  <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 </div>
+
+
 </body>
 </html>
