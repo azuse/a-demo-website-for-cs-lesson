@@ -16,8 +16,8 @@
 	display: inline-block;
 	overflow: hidden;
 	margin: -0.135em;
-	width: 280px;
-	height: 280px;
+	width: 250px;
+	height: 187px;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
@@ -777,6 +777,8 @@ figure.effect-milo {
 }
 
 figure.effect-milo img {
+	position: relative;
+	top: -20px;
 	width: -webkit-calc(100% + 60px);
 	width: calc(100% + 60px);
 	opacity: 1;
@@ -803,7 +805,7 @@ figure.effect-milo h2 {
 
 figure.effect-milo p {
 	padding: 0 10px 0 0;
-	width: 90%;
+	width: 30%;
 	border-right: 1px solid #fff;
 	text-align: right;
 	opacity: 0;
